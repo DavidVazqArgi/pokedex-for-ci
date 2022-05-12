@@ -1,0 +1,14 @@
+name: Holaaaaa
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hola_mundo:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Muestra el mensaje
+        run: |
+          echo "Hola, esto es una prueba"
