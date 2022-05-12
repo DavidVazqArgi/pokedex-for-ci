@@ -12,3 +12,6 @@ jobs:
       - name: Muestra el mensaje
         run: |
           echo "Hola, esto es una prueba"
+      - name: Fecha
+        run: date
+      - run: ls -l
